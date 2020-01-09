@@ -23,7 +23,7 @@ int main(int argc, const char * argv[]) {
     int i=0,j=0;
     vector <string> answer;
     
-    scanf("%s", input); //입력값 받기
+    scanf("%s", input); //입력값 받기 : 접시순서 알파벳
     temp[strlen(input)] = '\0'; //입력받은 값과 관련하여 앞으로 사용할 abcd문자열 선언.
     
     while (input[cnt] != 0) {// j
